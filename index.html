@@ -1,19 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>HYO</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
   <body>
-    <h1>hi</h1>
+    <!--menu bar--> 
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="asdf.html">About</a></li>
+                    <li><a href="#about">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Intro -->
+	<section id="intro">
+		<div id="intro-text">
+			<div>
+				<img id="clip-circle" src="images/profile.png" width="300" height="300" style="border-radius: 50%">
+			</div>
+			<h1>Sarah Chun</h1>
+			<div href="#about" id="scr-down">
+				<h2><span>Welcome to</span>
+					HANNAH KIM<span>'s Website!</span></h2>
+				<h3>take a look</h3>
+				<a href="#about">
+					<img src="images/scr_down.png">
+				</a> 
+			</div>
+		</div>
+	</section>
+    
+    <!-- About -->
+	<section id="about">
+		<article>
+			<h5>About me</h5>
+			<h1>Hi, my name is <span>Hannah Kim</span>.</h1> 
+			<h4>I am currently studying for a Computer Engineering program at the University of Waterloo. I am receptive to new ideas. I like to explore new places, love to adopt new technologies and am interested in learning new programming languages.</h4>
+			<p>:D</p>
+		</article>
+	</section>
+            
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
   </body>
 </html>
       
